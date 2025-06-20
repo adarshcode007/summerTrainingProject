@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>School Timetable</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f8fb;
+        padding: 40px;
+      }
+
+      h2 {
+        text-align: center;
+        color: #333;
+      }
+
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 20px;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+      }
+
+      th,
+      td {
+        border: 1px solid #ccc;
+        padding: 15px;
+        text-align: center;
+      }
+
+      th {
+        background-color: #4a90e2;
+        color: white;
+        font-weight: 600;
+      }
+
+      tr:nth-child(even) td {
+        background-color: #f9f9f9;
+      }
+
+      td:empty {
+        background-color: #ffffff;
+        cursor: pointer;
+      }
+
+      td:empty:hover {
+        background-color: #eef5ff;
+      }
+
+      .image-container {
+        text-align: center;
+        margin-top: 40px;
+      }
+
+      .image-container img {
+        width: 60%;
+        max-width: 600px;
+        border-radius: 15px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+      }
+
+      @media (max-width: 768px) {
+        table,
+        th,
+        td {
+          font-size: 12px;
+          padding: 10px;
+        }
+
+        .image-container img {
+          width: 90%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <h2>School Timetable</h2>
+    <div class="image-container">
+      <img
+        src="https://images.unsplash.com/photo-1577896851231-70ef18881754"
+        alt="Students Photo"
+      />
+    </div>
+    <table>
+      <tr>
+        <th>Day / Time</th>
+        <th>9:00 - 10:00</th>
+        <th>10:00 - 11:00</th>
+        <th>11:00 - 12:00</th>
+        <th>12:00 - 1:00</th>
+        <th>2:00 - 3:00</th>
+        <th>3:00 - 4:00</th>
+      </tr>
+      <tr>
+        <th>Monday</th>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <th>Tuesday</th>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <th>Wednesday</th>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <th>Thursday</th>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <th>Friday</th>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <th>Saturday</th>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+    </table>
+  </body>
+</html>

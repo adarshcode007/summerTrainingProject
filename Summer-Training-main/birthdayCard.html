@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Birthday Card</title>
+    <style>
+      body {
+        margin: 0;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        background: linear-gradient(135deg, #fdfcfb, #e2d1c3);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+
+      .card {
+        background: white;
+        width: 350px;
+        height: 500px;
+        border-radius: 20px;
+        box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+        text-align: center;
+        padding: 30px 20px;
+        position: relative;
+      }
+
+      .card h1 {
+        font-size: 2rem;
+        color: #ff6b81;
+        margin-bottom: 10px;
+      }
+
+      .card p {
+        color: #444;
+        font-size: 1rem;
+        margin-top: 20px;
+        line-height: 1.6;
+      }
+
+      .balloons {
+        font-size: 2rem;
+        animation: float 2s ease-in-out infinite alternate;
+      }
+
+      @keyframes float {
+        from {
+          transform: translateY(0px);
+        }
+        to {
+          transform: translateY(-10px);
+        }
+      }
+
+      .footer {
+        position: absolute;
+        bottom: 20px;
+        width: 100%;
+        font-size: 0.9rem;
+        color: #888;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="card">
+      <div class="balloons">🎂🎂🎂</div>
+      <h1>Happy Birthday!</h1>
+      <p>
+        Wishing you a day filled with love, joy,<br />
+        and unforgettable moments. 🎂<br /><br />
+        May this year bring you<br />
+        lots of success and smiles 😊
+      </p>
+      <div class="footer">— From Your Friend 💖</div>
+    </div>
+  </body>
+</html>

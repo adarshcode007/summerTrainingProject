@@ -1,0 +1,74 @@
+/* General page settings */
+body {
+  font-family: poppins;
+  background-color: #0059b3;
+  color: #333;
+  margin: 20px;
+  padding: 0;
+}
+
+/* Headings */
+h1 {
+  color: #004080;
+  text-align: center;
+}
+
+h2,
+h3 {
+  color: #0059b3;
+}
+
+/* Paragraphs */
+p {
+  line-height: 1.6;
+  font-size: 16px;
+}
+
+/* Lists */
+ul,
+ol {
+  padding-left: 20px;
+}
+
+/* Images */
+img {
+  display: block;
+  margin: 10px auto;
+  border: 2px solid #ccc;
+}
+
+/* Links */
+a {
+  color: #0066cc;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Tables */
+table {
+  width: 80%;
+  margin: 20px auto;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: 1px solid #888;
+  padding: 10px;
+  text-align: center;
+}
+
+th {
+  background-color: #cce0ff;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 14px;
+  color: #666;
+}
